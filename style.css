@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap');
+
+body {
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin: 0;
+}
+nav {
+    background-color: #142014;
+}
+ul li a {
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+#welcome-section {
+    min-height: 100vh;
+    background-color: tomato;
+    font-family: 'Staatliches', cursive;
+    font-size: 8vw;
+}
+#welcome-section div {
+    color: white;
+}
+
+#projects {
+    min-height: 100vh;
+    background-color: #6D7275;
+    color: white;
+}
+#projects h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 5vw;
+}
+.card {
+    width: 48%;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.card a img {
+    max-width: 640px;
+    width: 100%;
+}
+.card-body {
+    margin-top: 10px;
+    border-top: solid 1px #14201460;
+}
+.card-text {
+    color: #142014;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#contact {
+    min-height: 100vh;
+    background-color: #C7D6D5;
+    color: #142014;
+    padding: 20px;
+}
+#together {
+    font-family: 'Staatliches', cursive;
+    font-size: 8vw;
+}
+#profile-link {
+    font-size: 1.5rem;
+    color: #142014;
+    text-decoration: none;
+}
